@@ -15,9 +15,7 @@ stage('Build')
 sh "${mavenHome}/bin/mvn clean package"
 }
 }
-
-/var/lib/jenkins/workspace/pipeline-project/target/maven-web-application.war -->pkg name
-
+/*
 stage('ExecuteSonarQubeReport')
 {
 sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -44,4 +42,5 @@ Regards,
 AJ tech
 9347''', subject: 'Build is over', to: 'devops.anji0128@gmail.com'
 }
+*/
 }
